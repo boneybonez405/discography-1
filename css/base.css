@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);body{font-family:'Dosis', sans-serif;font-size:17px;color:#fff;}
+.btn{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;font-family:'Yanone Kaffeesatz', sans-serif;font-size:20px;background:#fff;text-shadow:-2px 1px 1px #000000;color:#fff;padding:9px 23px;text-decoration:none;}
+a{-webkit-transition:300ms;-moz-transition:300ms;-o-transition:300ms;transition:300ms;}
+a:focus, a:hover{text-decoration:none;outline:none}
+h1, h3, h4, h5, h6{font-family:'Whitehall', arial;font-size:32px;text-shadow:0px 1px 2px #182337, 1.5px 2px 2px #fff;font-weight:600;}
+h2{font-family:'Whitehall', arial;font-size:36px;text-shadow:0px 1px 2px #182337, 1.5px 2px 2px #fff;font-weight:600;}
+h3{color:#000;font-size:36px;text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);font-weight:bolder;}
+.navbar-toggle{margin-top:12px;}
+.navbar-toggle .icon-bar{background-color:rgba(255, 255, 255, 0.5);color:#fff;text-shadow:0px 1px 1px rgba(0, 0, 0, 1);}
+.navbar-toggle, .navbar-toggle:focus{border:1px solid #fff;outline:none;}
+a.back-to-top{display:none;color:transparent;width:70px;height:70px;text-indent:9999px;position:fixed;z-index:999;right:10px;bottom:10px;background:url("../images/backtotop.png") no-repeat center;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;box-shadow:0 0 40px 5px #182337, 0 0 10px 9px #182337, 0 0 30px 1px #bebebe, 0 0 50px 4px #fff, 0 0 80px 20px #000;}
+.header-top{display:block;overflow:hidden;}
+.main-nav{position:absolute;width:100%;z-index:999;}
+.main-nav .container{width:100%;}
+.navbar-brand{background-color:transparent;margin-top:-27px;margin-left:-47px;overflow:hidden;max-width:300px;min-width:200px;max-height:225px;min-height:150px;}
+.navbar-brand img{position:static;height:auto;width:55%;margin-left:0;}
+.navbar-right{background-color:rgba(51, 51, 51, 0.5);padding:0;}
+.navbar-right li a{padding:35px 21px;font-size:22px;color:#fff;text-transform:uppercase;font-family:'Yanone Kaffeesatz', sans-serif;font-weight:400;text-shadow:1px 1.4px 2px #000;}
+.navbar-right li a:focus, .navbar-right .active a{background-color:#333;text-shadow:1px 1.2px 1.2px #fff;color:#fff;}
+.navbar-right li:hover{background-color:rgba(255, 255, 255, 0.5);text-shadow:0px 1px 1px #000;color:#fff;}
+.fixed-menu{background-color:rgba(51, 51, 51, 0.5);position:fixed;top:0;}
+.fixed-menu .navbar-right{padding:0;}
+.fixed-menu .navbar-right li a{font-size:18px;padding:20px 25px;}
+.fixed-menu .navbar-brand{height:60px;margin-top:0;padding:0;margin-bottom:0;width:auto;}
+.fixed-menu .navbar-brand img{height:100%;top:0;width:auto;}
+.fixed-menu:active{text-shadow:.7px 1.3px .7px #fff;}
+.fixed-menu .header-top{display:none;}
+#home{position:relative;overflow:hidden;}
+.carousel-caption{position:static;z-index:10;}
+#main-slider img{height:100%;width:100%;}
+#main-slider .carousel-caption{background:none repeat scroll 0 0 #000000;bottom:14%;float:left;left:0;opacity:0.8;padding:10px 60px 35px;right:inherit;text-transform:uppercase;color:#fff;text-align:left;}
+#main-slider .carousel-caption h2{font-size:26px;}
+#main-slider .carousel-caption h4{font-size:20px;}
+#main-slider .carousel-caption a{font-size:22px;color:#2da1c5}
+#main-slider .carousel-caption a:hover{color:#2588a6}
+#main-slider .carousel-caption a:hover i{margin-left:35px}
+#main-slider .carousel-caption a i{margin-left:15px;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+#main-slider .carousel-indicators li{background-color:#1B7B98;border:1px solid #1B7B98;}
+#main-slider .carousel-indicators li.active{background-color:#16728f;border:1px solid #fff;}
+#band{background-color:#000;background-image:url("../images/tester2.jpg");background-position:0 0;background-size:100%;background-repeat:no-repeat;}
+.bandpic{position:absolute;right:0;top:0;}
+#band h2{color:#fff;font-size:36px;font-weight:500;margin-bottom:40px;text-transform:uppercase;}
+.single-band{margin-bottom:40px;}
+.single-band img{border-radius:50%;border:#182337 8px;border-style:double;margin-left:3%;margin-top:5%;margin-bottom:5%;max-height:50%;min-height:1%;max-width:50%;min-width:1%;}
+.single-band h4{color:#fff;font-size:24px;font-weight:300;line-height:26px;margin-top:25px;text-transform:uppercase;}
+.single-band h5{font-size:19px;font-weight:200;display:block;text-shadow:none;}
+#band-carousel{position:relative;margin-left:10%;}
+.band-control-left, .band-control-right{position:absolute;font-size:24px;color:#fff;top:0;}
+.band-control-left{right:3%;}
+.band-control-right{right:0;}
+.guitar2 img{float:left;margin-left:20%;margin-top:5%;max-width:300px;min-width:250px;max-height:300px;min-height:auto;padding-right:3%;}
+.about-content{width:100%;background:url("../images/tester2.jpg") no-repeat;background-position:center;background-size:cover;padding-top:1%;padding-right:5%;}
+#about h2{margin-bottom:1%;}
+.about-content p{clear:right;font-size:17px;font-family:'Dosis', sans-serif;letter-spacing:0.7px;line-height:150%;text-align:justify;text-indent:50px;padding-bottom:3.5%;padding-top:2%;padding-left:15%;padding-right:15%;width:100%;}
+#about .btn-primary{background-color:#137c61;color:#fff;text-transform:capitalize;border:none;margin-top:28px;}
+#about .btn-primary:hover{background-color:#126d55;}
+#album{background:url("../images/tester3.jpg") no-repeat;background-position:center;background-size:cover;padding:70px 70px 110px;position:relative;}
+.light{position:absolute;right:0;bottom:0;}
+#album .col-sm-10{z-index:10;}
+#album h2{margin-top:90px;margin-bottom:40px;}
+#album .item ul{font-size:0;padding:0;}
+#album .item ul li{display:inline-block;list-style:none;width:33.33%;margin-bottom:75px;}
+#album .item ul li:last-child{margin-right:0;}
+#sponsor{background:url("../images/tester3.jpg") no-repeat;background-position:center;background-size:cover;padding:10px 70px 30px;}
+.sponsor-control-left, .sponsor-control-right{color:#fff;font-size:24px;position:absolute;top:20%;}
+.sponsor-control-left{right:12%;}
+.sponsor-control-right{right:10%;}
+div.transbox{margin:0 auto;background-color:#030303;border:.5px solid black;opacity:0.6;filter:alpha(opacity=60);}
+.contact-section{width:100%;height:100%;background:url('../images/slider/bob3.jpg') center center no-repeat;background-size:cover;}
+.contact-section img{opacity:0.1;}
+.ear-piece{position:absolute;left:0;top:0;}
+#contact .container{padding-top:47px;}
+#contact h3{text-transform:inherit;color:#373737;opacity:0;}
+#contact address{font-size:18px;color:#373737;}
+.contact-text{margin-bottom:35px;display:block;}
+#contact-section .form-control{border-color:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=13, Direction=131, Color=#000000)";-moz-box-shadow:7px 8px 13px rgba(0,0,0,0.9);-webkit-box-shadow:7px 8px 13px rgba(0,0,0,0.9);box-shadow:7px 8px 13px rgba(0,0,0,0.9);outline:0 none;border-radius:0;color:#000;font-weight:400;font-size:24px;font-size:18px;opacity:0.9;}
+#contact-section .form-control:focus{border-color:#ae750d;}
+#contact-section input{height:44px;}
+#contact-section textarea{height:90px;resize:none;}
+#contact-section .btn-primary{background-color:#000;color:#bebebe;border:none;-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=13, Direction=131, Color=#000000)";-moz-box-shadow:7px 8px 13px rgba(0,0,0,0.9);-webkit-box-shadow:7px 8px 13px rgba(0,0,0,0.9);box-shadow:7px 8px 13px rgba(0,0,0,0.9);font-size:24px;padding:6px 42px;margin-bottom:110px;margin-top:10px;opacity:0.9;}
+#contact-section .btn-primary:hover{background-color:#212020;color:#fff;}
+#footer{background-color:#030303;background-position:center bottom;background-repeat:no-repeat;background-size:cover;color:#fff;font-size:18px;padding:35px 0;}
+#footer:before{content:"© 2016 | Brittany Killgore | Francis Tuttle Web Design & Development";padding-left:5%;}
+#footer a{color:#f7ab24;}
+#footer a:hover{color:#1B7B98;}
