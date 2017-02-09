@@ -1,312 +1,69 @@
-/* lg */ 
-@media (min-width: 1200px) {
-  
+@media (min-width:1200px){}
+@media (min-width:992px) and (max-width:1199px){.navbar-right{background-color:rgba(51, 51, 51, 0.5);padding:0 30px 0 0;}
+.navbar-right li a{padding:35px 15px;}
+.fixed-menu .container{width:100%;}
+.fixed-menu .navbar-right{padding-right:30px;}
+.fixed-menu .navbar-right li a{padding:20px;}
+.guitar2{height:100%}
+.guitar2 img{padding-top:0;float:left;}
+#band{background:url(../images/tester3.jpg) no-repeat;background-size:cover;}
+#band .col-md-9{z-index:10;}
 }
-
-/* md */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-  .navbar-right {
-    padding: 0 30px 0 0;
-  }
-
-  .navbar-right li a {
-    padding: 35px 15px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px;
-  }
-
-  .guitar2 {
-    height: 100%
-  }
-
-    .guitar2 img {
-      padding-top: 20%;
-    }
-
-  #band .col-md-9 {
-    z-index: 10;
-  }
-
-
+@media (min-width:768px) and (max-width:991px){.navbar-brand{max-height:100%;max-width:100%;min-height:auto;min-width:auto;}
+.navbar-right{padding:0;}
+.navbar-right li a{padding:20px 11px;font-size:22px;}
+.fixed-menu .container{background-color:rgba(51, 51, 51, 0.5);width:100%;}
+.fixed-menu .navbar-right{padding-right:30px;}
+.fixed-menu .navbar-right li a{padding:20px 15px;font-size:22px;}
+.sponsor-control-left{right:8%;}
+.sponsor-control-right{right:5%;}
+#band{background:url(../images/tester2.jpg) no-repeat;background-size:cover;}
+.guitar2{height:100%;}
 }
-
-/* sm */
-@media (min-width: 768px) and (max-width: 991px) {
-
-  .navbar-brand {
-    width: 215px;
-    height: 60px;
-  }
-
-  .navbar-right {
-    padding: 0;
-  }
-
-  .navbar-right li a {
-    padding:20px 11px;
-    font-size: 17px;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .fixed-menu .navbar-right {
-    padding-right: 30px;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 20px 15px;
-    font-size: 17px;
-  }
-
-  .sponsor-control-left {
-    right:8%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  .guitar2 {
-    height: 100%;
-  }
-
-  .guitar2 img {
-    padding-top:38%;
-  }
-
+@media (max-width:767px){.navbar-brand img{margin-left:0px;}
+.fixed-menu .container{display:block;width:100%;}
+.fixed-menu .navbar-right li a{letter-spacing:1.1px;padding:7px 25px;}
+.single-event img{max-height:60%;min-height:1%;width:auto;}
+#main-slider .carousel-caption{bottom:17%;padding:10px;line-height:0;}
+#main-slider .carousel-caption h2{font-size:20px;margin-top:3px;}
+#main-slider .carousel-caption h4{font-size:17px;}
+#main-slider .carousel-caption a{font-size:16px;color:#fff;}
+.single-event{margin-bottom:40px;}
+#band h2, #about h2, #album h2{font-size:30px;}
+#band{background:url("../images/tester3.jpg") no-repeat;background-size:cover;}
+#album{background-position:right 0 bottom 0;}
+.sponsor-control-left, .sponsor-control-right{top:0;}
+.sponsor-control-left{right:10%;}
+.sponsor-control-right{right:5%;}
+#album .item ul li{width:30%;margin-right:3%}
+#album .item ul li:last-child{margin-right:0;}
+#footer{font-size:16px;}
+.watch, .guitar, .guitar2, .twit, .light, .ear-piece{display:none;}
+.contact-section{opacity:0.99;}
+.contact-section::before{content:"";position:absolute;opacity:0.2;z-index:2;width:100%;height:48.5%;left:0;top:inherit;background:url('../images/slider/bob3.jpg');background-size:100% 100%;background-repeat:no-repeat;}
+.about-content{width:100%;padding:70px 25px 110px;}
 }
-
-/* xs */
-@media (max-width: 767px) {
-
-  .main-nav .container {
-    display: none;
-  }
-  
-  .fixed-menu .container {
-    display: block;
-  }
-
-   .fixed-menu .container {
-    width: 100%;
-  }
-
-  .navbar-brand {
-    width: inherit;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 7px 25px;
-  }
-
-  #home {
-    margin-top: 10%;
-  }
-
-  #main-slider .carousel-caption {
-    bottom: 17%;
-    padding: 10px;
-    line-height: 0;
-  }
-
-  #main-slider .carousel-caption h2 {
-    font-size: 20px;
-    margin-top: 3px;
-  }
-
-  #main-slider .carousel-caption h4 {
-    font-size: 16px;
-  }
-
-  #main-slider .carousel-caption a {
-    font-size: 14px;
-    color: #2da1c5;
-  }
-
-   /*band */
-  .single-event {
-    margin-bottom: 40px;
-  }
-
-
-  #band h2, 
-  #about h2, 
-  #album h2 {
-    font-size: 30px;
-  }
-
-  #album  {
-    background-position: right 0 bottom 0;
-  }
-
-  .sponsor-control-left, 
-  .sponsor-control-right {
-    top:0;
-  }
-
-  .sponsor-control-left {
-    right: 10%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  #album  .item ul li {
-    width: 30%;
-    margin-right:3%
-  }
-
-  #album .item ul li:last-child {
-    margin-right: 0;
-   }
-
-
-  #footer {
-    font-size: 16px;
-  }
-
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
-    display: none;
-  }
-
-  .contact-section {
-    background-position: left 0 bottom 0;
-    background-size: cover;
-  }
-
-  .about-content {
-    width: 100%;    
-    padding: 70px 25px 110px;
-  }
-
+@media (max-width:479px){.main-nav .container{display:none;}
+.fixed-menu .container{display:block;}
+.fixed-menu .navbar-right li a{padding:10px 25px;}
+.fixed-menu .container{width:100%;}
+.navbar-brand{width:inherit;}
+#main-slider .carousel-caption{bottom:17%;padding:10px;line-height:0;}
+#main-slider .carousel-caption h2{font-size:18px;margin-top:3px;}
+#main-slider .carousel-caption h4{font-size:14px;}
+#main-slider .carousel-caption a{font-size:12px;color:#2da1c5;}
+.carousel-indicators{bottom:0;}
+.single-event{margin-bottom:40px;}
+.about-content{background:url("../images/tester2.jpg") no-repeat;background-size:cover;padding:70px 30px 110px;}
+#band h2, #about h2, #album h2{font-size:30px;}
+.about-content p{font-size:15px;}
+#album{background-position:right 0 bottom;}
+.sponsor-control-left, .sponsor-control-right{top:0;}
+.sponsor-control-left{right:10%;}
+.sponsor-control-right{right:5%;}
+#album .item ul li{width:45%;margin-right:5%}
+#album .item ul li:last-child{margin-right:0;}
+#footer{font-size:14px;}
+.watch, .guitar, .guitar2, .twit, .light, .ear-piece{display:none;}
+.contact-section{background-position:left 0 bottom 0;background-size:cover;}
 }
-
-/* XS Portrait */
-@media (max-width: 479px) {
-
-  .main-nav .container {
-    display: none;
-  }
-
-  .fixed-menu .container {
-    display: block;
-  }
-
-  .fixed-menu .navbar-right li a {
-    padding: 10px 25px;
-  }
-
-  /* Home */
-
-  #home {
-    margin-top: 18%;
-  }
-
-  .fixed-menu .container {
-    width: 100%;
-  }
-
-  .navbar-brand {
-    width: inherit;
-  }
-
-
-  #main-slider .carousel-caption {
-    bottom: 17%;
-    padding: 10px;
-    line-height: 0;
-  }
-
-  #main-slider .carousel-caption h2 {
-    font-size: 18px;
-    margin-top: 3px;
-  }
-
-  #main-slider .carousel-caption h4 {
-    font-size: 14px;
-  }
-
-  #main-slider .carousel-caption a {
-    font-size: 12px;
-    color: #2da1c5;
-  }
-
-  .carousel-indicators {
-    bottom: 0;
-  }
-
-    /*band */
-  .single-event {
-    margin-bottom: 40px;
-  }
-
-  .about-content {
-    width: 100%;    
-    padding: 70px 30px 110px;
-  }
-
-  #band h2, 
-  #about h2, 
-  #album h2 {
-    font-size: 30px;
-  }
-
-  .about-content p{
-    font-size: 15px;
-  }
-
-  #album {
-    background-position: right 0 bottom;
-  }
-
-  .sponsor-control-left, 
-  .sponsor-control-right {
-    top: 0;
-  }
-
-  .sponsor-control-left {
-    right: 10%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  #album .item ul li {
-    width: 45%;
-    margin-right: 5%
-  }
-
-  #album .item ul li:last-child {
-    margin-right: 0;
-   }
- 
-  #footer {
-    font-size: 14px;
-  }
-
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
-    display: none;
-  }
-
-  .contact-section {
-    background-position: left 0 bottom 0;
-    background-size: cover;
-  }
-
-}
-
